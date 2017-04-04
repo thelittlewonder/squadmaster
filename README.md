@@ -1,2 +1,2 @@
 # squadmaster
-DBMS Mini Project
+Employee Management System for DBMS Project using Flask and MySQL
