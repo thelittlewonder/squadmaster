@@ -8,3 +8,5 @@ packaging==16.8
 pyparsing==2.2.0
 six==1.10.0
 Werkzeug==0.12.1
+MySQL-python==1.2.5
+Flask-SQLAlchemy==2.2
