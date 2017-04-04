@@ -12,7 +12,12 @@ class DevelopmentConfig(Config):
     """
 
     DEBUG = True
+    # setting this to True activates the debug mode on the app.
+    # This allows us to use the Flask debugger in case of an unhandled exception, and
+    # also automatically reloads the application when it is updated.
     SQLALCHEMY_ECHO = True
+    # setting this to True helps us with debugging by allowing SQLAlchemy to
+    # log errors.
 
 
 class ProductionConfig(Config):
