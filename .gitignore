@@ -1,1 +1,4 @@
-instance/config.py
+.DS_Store
+*.pyc
+instance/
+migrations/
