@@ -9,7 +9,7 @@ class DepartmentForm(FlaskForm):
     submit = SubmitField('Submit')
 
 
-class RoleForms(FlaskForm):
+class RoleForm(FlaskForm):
     name = StringField('Name', validators=[DataRequired()])
     description = StringField('Description', validators=[DataRequired()])
     submit = SubmitField('Submit')
