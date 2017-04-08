@@ -13,3 +13,4 @@ Flask-SQLAlchemy==2.2
 Flask-Login==0.4.0
 Flask-Migrate==2.0.3
 Flask-WTF==0.14.2
+Flask-Bootstrap==3.3.7.1
