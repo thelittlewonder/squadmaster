@@ -8,24 +8,24 @@ body,
 h1,
 h2,
 h3 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
 }
 
 a,
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
-    color: #aec251;
+    color: #33c3df;
 }
 
 a:hover,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav>li>a:hover {
-    color: #687430;
+    color: #2b7379;
 }
 
 footer {
-    padding: 50px 0;
+    padding: 20px 0;
+    padding-top: 10px;
     background-color: #f8f8f8;
 }
 
@@ -36,18 +36,18 @@ p.copyright {
 .alert-info {
     width: 50%;
     margin: auto;
-    color: #687430;
-    background-color: #e6ecca;
-    border-color: #aec251;
+    color: #2b7379;
+    background-color: #a0cce0;
+    border-color: #33c3df;
 }
 
 .btn-default {
-    border-color: #aec251;
-    color: #aec251;
+    border-color: #33c3df;
+    color: #33c3df;
 }
 
 .btn-default:hover {
-    background-color: #aec251;
+    background-color: #33c3df;
 }
 
 .center {
@@ -130,4 +130,12 @@ p.copyright {
 .inner {
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+    cursor: pointer;
+}
+
+.bluecolor {
+    color: #F44336;
 }
