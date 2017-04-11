@@ -18,11 +18,14 @@ a,
     border-bottom: 1px solid transparent;
 }
 
-a:hover,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav>li>a:hover {
     color: #007ee5;
     border-bottom: 1px solid #007ee5;
+}
+
+a:hover {
+    color: #007ee5;
 }
 
 footer {
@@ -38,8 +41,7 @@ p.copyright {
 .alert-info {
     width: 50%;
     margin: auto;
-    color: #2b7379;
-    background-color: #a0cce0;
+    color: #007ee5;
     border-color: #007ee5;
 }
 
