@@ -78,11 +78,9 @@ p.copyright {
 }
 
 .intro-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20%;
     text-align: center;
     color: #f8f8f8;
-    margin-top: 20px;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
