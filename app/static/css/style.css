@@ -82,6 +82,8 @@ p.copyright {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
+    margin-top: 20px;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
 }
@@ -90,6 +92,8 @@ p.copyright {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
+    text-align: right;
+    margin-right: -10%;
 }
 
 .intro-message>h1 {
