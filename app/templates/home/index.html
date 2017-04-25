@@ -7,6 +7,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css " rel="stylesheet ">
     <link href="{{ url_for( 'static', filename='css/style.css' ) }} " rel="stylesheet ">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
     <link rel="shortcut icon " href="{{ url_for( 'static', filename='img/favicon.ico' ) }} ">
 </head>
 
@@ -20,7 +21,7 @@
                   <span class="icon-bar "></span>
                   <span class="icon-bar "></span>
               </button>
-                <a class="navbar-brand topnav " href="{{ url_for( 'home.homepage') }} ">Squad Master</a>
+                <a class="navbar-brand topnav homelogo" href="{{ url_for( 'home.homepage') }} ">Squad Master</a>
             </div>
             <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1 ">
                 <ul class="nav navbar-nav navbar-right">
@@ -44,7 +45,11 @@
             </div>
         </div>
     </nav>
-    <div class="wrapper" style="background-color: #cee2f2">
+
+    <p id="message">
+        Squad Master allows you to manage your employees in a easy way. You have complete control over the details of the registered employees. Add,Update and delete the roles and departments of your employees without hassle in simple clicks.
+    </p>
+    <div class="wrapper">
         <div class="intro-header">
             <div class="container">
                 <div class="row">
@@ -53,6 +58,11 @@
                             <h1>Squad Master</h1>
                             <h3>Manage your employees in the most perfect way</h3>
                             </ul>
+                            <br>
+                            <br>
+                            <a href="{{ url_for('auth.register') }}" id="out">New User? Let's Get Started!</a>
+                            <br>
+
                         </div>
                     </div>
                 </div>

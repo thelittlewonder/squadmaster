@@ -81,7 +81,7 @@ p.copyright {
     padding-bottom: 20%;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/intro-bg.png) no-repeat center center;
     background-size: cover;
     height: 100%;
 }
@@ -90,8 +90,8 @@ p.copyright {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
-    text-align: right;
-    margin-right: -10%;
+    text-align: center;
+    margin-right: -66%;
 }
 
 .intro-message>h1 {
@@ -111,6 +111,7 @@ p.copyright {
 
 .topnav {
     font-size: 14px;
+    width: 100%;
 }
 
 .wrapper {
@@ -148,4 +149,55 @@ a {
 .btn:hover {
     color: white;
     border: none;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-right {
+    margin-right: 5px;
+}
+
+.homelogo {
+    margin-left: 20px;
+    width: auto;
+    font-size: 16px;
+}
+
+.homelogo:hover {
+    color: #007ee5;
+}
+
+#out {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    background-color: white;
+    color: #007ee5;
+    border: 1px solid #007ee5;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#out:hover {
+    text-decoration: none;
+    background-color: #007ee5;
+    color: white;
+}
+
+#message {
+    position: absolute;
+    z-index: 999;
+    width: 400px;
+    top: 50%;
+    left: 61.5%;
+    color: lightgrey;
+    text-align: center;
+    margin: 0;
 }
