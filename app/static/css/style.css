@@ -78,7 +78,7 @@ p.copyright {
 }
 
 .intro-header {
-    padding-bottom: 20%;
+    padding-bottom: 8%;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/intro-bg.png) no-repeat center center;
@@ -194,10 +194,47 @@ body {
 #message {
     position: absolute;
     z-index: 999;
-    width: 400px;
-    top: 50%;
-    left: 61.5%;
+    width: 450px;
+    top: 60%;
+    left: 60%;
     color: lightgrey;
     text-align: center;
     margin: 0;
+}
+
+#in {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    background-color: white;
+    color: #26A69A;
+    border: 1px solid #26A69A;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#in:hover {
+    text-decoration: none;
+    background-color: #26A69A;
+    color: white;
+}
+
+.btn-default {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    border: 1px solid #007ee5;
+    box-sizing: border-box;
+}
+
+.btn-default:hover {
+    text-decoration: none;
+    background-color: #007ee5;
+    color: white;
+    border: 1px solid #007ee5;
 }
