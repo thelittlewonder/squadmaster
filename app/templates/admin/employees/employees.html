@@ -14,14 +14,16 @@
                             <tr>
                                 <th width="15%"> Name </th>
                                 <th width="30%"> Department </th>
-                                <th width="30%"> Role </th>
-                                <th width="15%"> Assign </th>
+                                <th width="20%"> Role </th>
+                                <th width="20%"> Pay Grade </th>
+                                <th width="30%"> Assign </th>
                             </tr>
                         </thead>
                         <tbody>
                             {% for employee in employees %} {% if employee.is_admin %}
                             <tr style="background-color: #007ee5; color: white;">
                                 <td> <i class="fa fa-key"></i> Admin </td>
+                                <td> N/A </td>
                                 <td> N/A </td>
                                 <td> N/A </td>
                                 <td> N/A </td>
@@ -34,6 +36,9 @@
                                 </td>
                                 <td>
                                     {% if employee.role %} {{ employee.role.name }} {% else %} - {% endif %}
+                                </td>
+                                <td>
+                                    {% if employee.grade %} {{ employee.grade.paygrade }} {% else %} - {% endif %}
                                 </td>
                                 <td>
                                     <a href="{{ url_for('admin.assign_employee', id=employee.id) }}">
