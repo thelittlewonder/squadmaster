@@ -28,12 +28,12 @@
                                     {% if grade.employees %} {{ grade.employees.count() }} {% else %} 0 {% endif %}
                                 </td>
                                 <td>
-                                    <a href="{{ url_for('admin.edit_grade', id=grade.id) }}">
+                                    <a href="{{ url_for('admin.edit_grade', id=grade.id) }}" class="green">
                                         <i class="fa fa-pencil"></i> Edit
                                     </a>
                                 </td>
                                 <td>
-                                    <a href="{{ url_for('admin.delete_grade', id=grade.id) }}">
+                                    <a href="{{ url_for('admin.delete_grade', id=grade.id) }}" class="red">
                                         <i class="fa fa-trash"></i> Delete
                                     </a>
                                 </td>

@@ -229,6 +229,32 @@ def assign_employee(id):
                            employee=employee, form=form,
                            title='Assign Employee')
 
+
+@admin.route('/employees/delete/<int:id>', methods=['GET', 'POST'])
+@login_required
+def delete_employee(id):
+    """
+    Assign a department and a role to an employee
+    """
+    check_admin()
+
+    employee = Employee.query.get_or_404(id)
+
+    # prevent admin from being assigned a department or role
+    if employee.is_admin:
+        abort(403)
+
+    db.session.delete(employee)
+    db.session.commit()
+    flash('You have successfully deleted the account.')
+
+    # redirect to the roles page
+    return redirect(url_for('admin.list_employees'))
+
+    return render_template('admin/employees/employee.html',
+                           employee=employee, form=form,
+                           title='Delete Employee')
+
 #--------------------------------------------------#
 
 

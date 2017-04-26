@@ -1,7 +1,9 @@
-from flask import render_template
+from flask import abort, flash, redirect, render_template, url_for
 from flask_login import login_required, current_user
 
 from . import home
+from .. import db
+from ..models import Employee
 
 
 @home.route('/')
@@ -24,7 +26,7 @@ def admin_dashboard():
     return render_template('home/admin_dashboard.html', title='Admin Dashboard')
 
 
-@home.route('/profile')
+@home.route('/profile', methods=['GET', 'POST'])
 @login_required
 def profile():
 

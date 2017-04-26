@@ -17,6 +17,7 @@
                                 <th width="20%"> Role </th>
                                 <th width="20%"> Pay Grade </th>
                                 <th width="30%"> Assign </th>
+                                <th width="40%"> Actions </th>
                             </tr>
                         </thead>
                         <tbody>
@@ -41,8 +42,13 @@
                                     {% if employee.grade %} {{ employee.grade.paygrade }} {% else %} - {% endif %}
                                 </td>
                                 <td>
-                                    <a href="{{ url_for('admin.assign_employee', id=employee.id) }}">
+                                    <a href="{{ url_for('admin.assign_employee', id=employee.id) }}" class="green">
                                         <i class="fa fa-user-plus"></i> Assign
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="{{ url_for('admin.delete_employee', id=employee.id) }}" class="red">
+                                        <i class="fa fa-trash-o"></i> Delete
                                     </a>
                                 </td>
                             </tr>
