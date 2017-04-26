@@ -203,7 +203,7 @@ def list_employees():
 @login_required
 def assign_employee(id):
     """
-    Assign a department and a role to an employee
+    Assign a department, a paygrade and a role to an employee
     """
     check_admin()
 
@@ -220,7 +220,7 @@ def assign_employee(id):
         employee.grade = form.grade.data
         db.session.add(employee)
         db.session.commit()
-        flash('You have successfully assigned a department and role.')
+        flash('You have successfully assigned a department, paygrade and a role.')
 
         # redirect to the roles page
         return redirect(url_for('admin.list_employees'))
