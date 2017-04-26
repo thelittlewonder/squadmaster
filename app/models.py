@@ -68,7 +68,7 @@ class Department(db.Model):
                                 lazy='dynamic')
 
     def __repr__(self):
-        return '<Department: {}>'.format(self.name)
+        return '{}'.format(self.name)
 
 
 class Role(db.Model):
@@ -85,7 +85,7 @@ class Role(db.Model):
                                 lazy='dynamic')
 
     def __repr__(self):
-        return '<Role: {}>'.format(self.name)
+        return '{}'.format(self.name)
 
 
 class Grade(db.Model):
@@ -102,4 +102,4 @@ class Grade(db.Model):
                                 lazy='dynamic')
 
     def __repr__(self):
-        return '<Pay Grade: {}>'.format(self.paygrade)
+        return '{}'.format(self.paygrade)
