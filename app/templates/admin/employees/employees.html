@@ -21,13 +21,13 @@
                         </thead>
                         <tbody>
                             {% for employee in employees %} {% if employee.is_admin %}
-                            <tr style="background-color: #007ee5; color: white;">
+                            <!--<tr style="background-color: #007ee5; color: white;">
                                 <td> <i class="fa fa-key"></i> Admin </td>
                                 <td> N/A </td>
                                 <td> N/A </td>
                                 <td> N/A </td>
                                 <td> N/A </td>
-                            </tr>
+                            </tr>-->
                             {% else %}
                             <tr>
                                 <td> {{ employee.first_name }} {{ employee.last_name }} </td>
