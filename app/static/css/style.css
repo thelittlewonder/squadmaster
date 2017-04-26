@@ -238,3 +238,23 @@ body {
     color: white;
     border: 1px solid #007ee5;
 }
+
+#db {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    background-color: white;
+    color: #03A9F4;
+    border: 1px solid #03A9F4;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#db:hover {
+    text-decoration: none;
+    background-color: #03A9F4;
+    color: white;
+}
