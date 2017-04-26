@@ -9,6 +9,7 @@ def homepage():
 
     return render_template('home/index.html', title='Welcome to Squad Master')
 
+
 @home.route('/dashboard')
 @login_required
 def dashboard():
@@ -21,3 +22,10 @@ def admin_dashboard():
     if not current_user.is_admin:
         abort(403)
     return render_template('home/admin_dashboard.html', title='Admin Dashboard')
+
+
+@home.route('/profile')
+@login_required
+def profile():
+
+    return render_template('home/profilepage.html', title='Employee Profile')

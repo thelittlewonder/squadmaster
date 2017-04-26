@@ -88,7 +88,7 @@ p.copyright {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
+    padding-top: 10%;
     padding-bottom: 20%;
     text-align: center;
     margin-right: -66%;
@@ -195,7 +195,7 @@ body {
     position: absolute;
     z-index: 999;
     width: 450px;
-    top: 60%;
+    top: 55%;
     left: 60%;
     color: lightgrey;
     text-align: center;
@@ -256,5 +256,25 @@ body {
 #db:hover {
     text-decoration: none;
     background-color: #03A9F4;
+    color: white;
+}
+
+#profilebtn {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 30px;
+    background-color: white;
+    color: #26A69A;
+    border: 1px solid #26A69A;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+#profilebtn:hover {
+    text-decoration: none;
+    background-color: #26A69A;
     color: white;
 }

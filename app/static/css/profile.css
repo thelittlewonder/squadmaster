@@ -1,0 +1,39 @@
+p {
+    margin: 0;
+}
+
+#mainwrap {
+    text-align: center;
+    display: block;
+    margin-top: 6%;
+}
+
+#avatar {
+    height: 250px;
+    width: 250px;
+}
+
+#name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: #0277BD;
+}
+
+#username {
+    font-size: 20px;
+    color: #BDBDBD;
+}
+
+#mail,
+#role,
+#depart {
+    font-size: 20px;
+}
+
+#mail>a {
+    color: black;
+}
+
+#mail>a:hover {
+    text-decoration: none;
+}
