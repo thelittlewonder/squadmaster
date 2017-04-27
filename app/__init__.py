@@ -1,12 +1,11 @@
 # app/__init__.py
-
+import os
 # third-party imports
 from flask import Flask, render_template, abort
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_bootstrap import Bootstrap
-import os
 # local imports
 from config import app_config
 
