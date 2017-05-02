@@ -25,14 +25,14 @@ Employee Management Web Application built using Flask and MySQL for the Database
 ### Admin Dashboard
 ![Admin Dashboard](https://raw.githubusercontent.com/littlewonder/squadmaster/master/screenshots/admin-dashboard.png)
 
-### Departments View
+### Departments Page
 ![Departments View](https://raw.githubusercontent.com/littlewonder/squadmaster/master/screenshots/departments-view.png)
 
-### Employees View
+### Employees Page
 ![Employees View](https://raw.githubusercontent.com/littlewonder/squadmaster/master/screenshots/employees-view.png)
 
-### Pay Grades View
+### Pay Grades Page
 ![Pay Grades View](https://raw.githubusercontent.com/littlewonder/squadmaster/master/screenshots/paygrades-view.png)
 
-### Roles View
+### Roles Page
 ![Roles View](https://raw.githubusercontent.com/littlewonder/squadmaster/master/screenshots/roles-view.png)
