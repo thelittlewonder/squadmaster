@@ -2,6 +2,7 @@
 Employee Management Web Application built using Flask and MySQL for the Database Management course's mini project
 
 ---
+Based on Scotch.io's [Tutorial](https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one)
 ## [Presentation](https://drive.google.com/file/d/0B0Q8qfGisPMeekN6VDRCUThnWUk/view?usp=sharing)
 ---
 # Screenshots
