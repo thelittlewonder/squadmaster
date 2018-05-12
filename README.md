@@ -2,7 +2,6 @@
 Employee Management Web Application built using Flask and MySQL for the Database Management course's mini project
 
 ---
-## [Live Demo](http://squadmaster.pythonanywhere.com/)
 ## [Presentation](https://drive.google.com/file/d/0B0Q8qfGisPMeekN6VDRCUThnWUk/view?usp=sharing)
 ---
 # Screenshots
